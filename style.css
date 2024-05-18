@@ -1,9 +1,12 @@
 ul {
     position: -webkit-sticky; /* Safari */
     position: sticky;
-    top: 0;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
     overflow: hidden;
-    background-color: #333;
+    background-color: #333
+    top: 0;
   }
   
   li {
