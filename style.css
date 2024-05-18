@@ -35,7 +35,7 @@ ul {
     width: 100%;
   }
 }
-.stack {
+.hstack {
   align-items: center;
   flex-direction: row;
   flex: 33.33%;
