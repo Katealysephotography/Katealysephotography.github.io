@@ -30,12 +30,14 @@ ul {
 .container {
   display: flex;
 }
-@media screen and (max-width: 500px) {
-  .stack {
+@media screen and (max-width: 1200px) {
+  .hstack {
     width: 100%;
   }
 }
 .hstack {
+  height: 80%;
+  background-size: contain;
   align-items: center;
   flex-direction: row;
   flex: 33.33%;
